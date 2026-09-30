@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-satoshi);
+  --font-display: var(--font-poppins);
+
+  --color-brand-blue: var(--brand-blue);
+  --color-brand-lime: var(--brand-lime);
+  --color-neutral-50: var(--neutral-50);
+  --color-neutral-100: var(--neutral-100);
+  --color-neutral-200: var(--neutral-200);
+  --color-neutral-300: var(--neutral-300);
+  --color-neutral-400: var(--neutral-400);
+  --color-neutral-500: var(--neutral-500);
+  --color-neutral-600: var(--neutral-600);
+  --color-neutral-700: var(--neutral-700);
+  --color-neutral-800: var(--neutral-800);
+  --color-neutral-900: var(--neutral-900);
+  --color-neutral-950: var(--neutral-950);
+
+  --text-heading-l: 4.5rem;
+  --text-heading-l--line-height: 1.2;
+  --text-heading-m: 2.75rem;
+  --text-heading-m--line-height: 1.2;
+  --text-heading-s: 2.25rem;
+  --text-heading-s--line-height: 1.2;
+  --text-heading-xs: 1.25rem;
+  --text-heading-xs--line-height: 1.2;
+
+  --text-body-l: 1.125rem;
+  --text-body-l--line-height: 1.6;
+  --text-body-m: 1rem;
+  --text-body-m--line-height: 1.6;
+  --text-body-s: 0.875rem;
+  --text-body-s--line-height: 1.6;
+  --text-body-xs: 0.75rem;
+  --text-body-xs--line-height: 1.6;
+
+  --text-label-l: 1.125rem;
+  --text-label-l--line-height: 1.2;
+  --text-label-m: 1rem;
+  --text-label-m--line-height: 1.2;
+  --text-label-s: 0.875rem;
+  --text-label-s--line-height: 1.2;
+  --text-label-xs: 0.75rem;
+  --text-label-xs--line-height: 1.2;
+}
+
+:root {
+  --brand-blue: #0739d8;
+  --brand-lime: #c7ff00;
+  --grid-line-color: rgb(255 255 255 / 12%);
+  --grid-cell-size: 80px;
+
+  --neutral-50: #f5f5f6;
+  --neutral-100: #e5e6e8;
+  --neutral-200: #ced0d3;
+  --neutral-300: #abaeb5;
+  --neutral-400: #82868e;
+  --neutral-500: #666973;
+  --neutral-600: #585a62;
+  --neutral-700: #4b4c53;
+  --neutral-800: #424348;
+  --neutral-900: #3a3b3f;
+  --neutral-950: #242528;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--neutral-950);
+  font-family: var(--font-satoshi), sans-serif;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-poppins), sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+}

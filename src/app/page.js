@@ -1,7 +1,14 @@
+import Hero from "../components/home/Hero";
+import Footer from "../components/layout/Footer";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Hello, ByteSpace</h1>
-    </main>
+    <>
+      <main>
+        <Hero />
+      </main>
+
+      <Footer />
+    </>
   );
 }
