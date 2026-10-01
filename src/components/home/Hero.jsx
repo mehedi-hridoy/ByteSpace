@@ -94,7 +94,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="#"
+                href="/search"
                 className="text-[11px] leading-[24px] text-white xl:text-[12px]"
               >
                 Courses

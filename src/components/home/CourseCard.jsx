@@ -25,64 +25,6 @@ export default function CourseCard({ course }) {
           "
         />
 
-        {/* Image information */}
-        <div
-          className="
-            absolute
-            bottom-[10px]
-            left-[10px]
-            right-[10px]
-            flex
-            items-center
-            justify-between
-            gap-[6px]
-          "
-        >
-          <span
-            className="
-              rounded-full
-              bg-white/75
-              px-[10px]
-              py-[5px]
-              text-[11px]
-              leading-none
-              text-[#4D525C]
-              backdrop-blur-[4px]
-            "
-          >
-            {course.lessons} Lessons
-          </span>
-
-          <span
-            className="
-              rounded-full
-              bg-white/75
-              px-[10px]
-              py-[5px]
-              text-[11px]
-              leading-none
-              text-[#4D525C]
-              backdrop-blur-[4px]
-            "
-          >
-            {course.duration}
-          </span>
-
-          <span
-            className="
-              rounded-full
-              bg-white/75
-              px-[10px]
-              py-[5px]
-              text-[11px]
-              leading-none
-              text-[#4D525C]
-              backdrop-blur-[4px]
-            "
-          >
-            {course.comments} Comments
-          </span>
-        </div>
       </div>
 
       {/* Content */}
@@ -206,24 +148,11 @@ export default function CourseCard({ course }) {
 
         {/* Price */}
         <div className="mt-[12px] flex items-baseline gap-[2px]">
-          <span
-            className="
-              text-[17px]
-              font-semibold
-              leading-none
-              text-[#0057FF]
-            "
-          >
+          <span className="text-[17px] font-semibold leading-none text-[#0057FF]">
             ${course.price}
           </span>
 
-          <span
-            className="
-              text-[10px]
-              leading-none
-              text-[#858A94]
-            "
-          >
+          <span className="text-[10px] leading-none text-[#858A94]">
             /{course.priceType}
           </span>
         </div>
