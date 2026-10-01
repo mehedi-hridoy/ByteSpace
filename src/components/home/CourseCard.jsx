@@ -1,9 +1,16 @@
 "use client";
 
+import Link from "next/link";
+
 export default function CourseCard({ course }) {
   return (
-    <article
-      className="
+    <Link
+      href={`/courses/${course.id}`}
+      aria-label={`View ${course.title} course details`}
+      className="block h-full rounded-[24px] no-underline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-blue"
+    >
+      <article
+        className="
         w-full
         overflow-hidden
         rounded-[24px]
@@ -157,6 +164,7 @@ export default function CourseCard({ course }) {
           </span>
         </div>
       </div>
-    </article>
+      </article>
+    </Link>
   );
 }
