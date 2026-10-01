@@ -3,8 +3,9 @@ import LogoCloud from "@/components/home/LogoCloud";
 import CourseSection from "@/components/home/CourseSection";
 import LearningCategoriesSection from "@/components/home/LearningCategoriesSection";
 import ProfessionalGrowthSection from "@/components/home/ProfessionalGrowthSection";
-import Footer from "../components/layout/Footer";
 import CreatorCTA from "@/components/CreatorCTA/CreatorCTA";
+import CommunitySection from "@/components/home/CommunitySection";
+import Footer from "../components/layout/Footer";
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
       <CourseSection />
       <LearningCategoriesSection />
       <ProfessionalGrowthSection />
-      <CreatorCTA></CreatorCTA>
+      <CreatorCTA />
+      <CommunitySection />
       <Footer />
     </>
   );
