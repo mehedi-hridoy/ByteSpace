@@ -123,12 +123,12 @@ export default function Hero() {
                 xl:gap-[24px]
               "
             >
-              <a
-                href="#"
+              <Link
+                href="/login"
                 className="text-[11px] leading-[24px] text-white xl:text-[12px]"
               >
                 Sign In
-              </a>
+              </Link>
 
               <a
                 href="/register"
