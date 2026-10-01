@@ -17,12 +17,12 @@ export default function CourseSection() {
           pb-[62px]
         "
       >
-        {/* Heading + Description */}
         <div className="mx-auto w-full max-w-[917px] text-center">
           <h2
             className="
               mx-auto
               max-w-[588px]
+              font-display
               text-[40px]
               leading-[1.08]
               font-bold
@@ -55,10 +55,8 @@ export default function CourseSection() {
           </p>
         </div>
 
-        {/* Categories */}
         <CourseCategories />
 
-        {/* Course Cards */}
         <div
           className="
             mt-[64px]
