@@ -30,6 +30,9 @@ const poppins = localFont({
 export const metadata = {
   title: "ByteSpace",
   description: "Learn. Create. Grow.",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {
