@@ -87,7 +87,7 @@ export default function Hero() {
               "
             >
               <a
-                href="#"
+                href="/"
                 className="text-[11px] leading-[24px] text-white xl:text-[12px]"
               >
                 Home
@@ -101,7 +101,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="#"
+                href="/creators"
                 className="text-[11px] leading-[24px] text-white xl:text-[12px]"
               >
                 Creators

@@ -27,7 +27,7 @@ function SiteHeader() {
       <nav aria-label="Main navigation" className="hidden items-center gap-6 text-[12px] md:flex">
         <Link href="/">Home</Link>
         <Link href="/search">Courses</Link>
-        <Link href="#creator">Creators</Link>
+        <Link href="/creators">Creators</Link>
       </nav>
       <div className="flex items-center gap-3 text-[11px] sm:gap-5 xl:gap-6 xl:text-[12px]">
         <Link href="#sign-in">Sign In</Link>
