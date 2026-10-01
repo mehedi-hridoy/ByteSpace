@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import GridBackground from "../ui/GridBackground";
 
 export default function Hero() {
@@ -86,12 +87,12 @@ export default function Hero() {
                 xl:gap-[24px]
               "
             >
-              <a
+              <Link
                 href="/"
                 className="text-[11px] leading-[24px] text-white xl:text-[12px]"
               >
                 Home
-              </a>
+              </Link>
 
               <a
                 href="/search"
@@ -130,7 +131,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="#"
+                href="/register"
                 className="text-[11px] leading-[24px] text-white xl:text-[12px]"
               >
                 Join Us

@@ -35,7 +35,7 @@ function SiteHeader() {
 
       <div className="flex items-center gap-3 text-[11px] sm:gap-5 xl:gap-6 xl:text-[12px]">
         <Link href="#sign-in">Sign In</Link>
-        <Link href="#join-us">Join Us</Link>
+        <Link href="/register">Join Us</Link>
         <Image src="/cart_logo.png" alt="Cart" width={24} height={24} className="h-5 w-5 object-contain xl:h-6 xl:w-6" />
       </div>
     </header>
