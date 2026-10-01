@@ -23,14 +23,14 @@ const logos = [
 
 export default function LogoCloud() {
   return (
-    <section className="w-full h-[202px] bg-[#F5F5F6] flex items-center justify-center px-6">
-      <div className="w-full max-w-[1132px] flex items-center justify-between gap-8">
+    <section className="flex h-auto w-full items-center justify-center bg-[#F5F5F6] px-6 py-8 xl:h-[202px] xl:py-0">
+      <div className="grid w-full max-w-[1132px] grid-cols-2 items-center justify-items-center gap-x-4 gap-y-6 sm:grid-cols-3 lg:grid-cols-5 xl:flex xl:justify-between xl:gap-8">
         {logos.map((logo, index) => (
           <img
             key={index}
             src={logo.src}
             alt={logo.alt}
-            className="w-[168px] h-[42px] object-contain shrink-0"
+            className="h-[36px] w-full max-w-[140px] shrink-0 object-contain sm:h-[42px] sm:max-w-[168px] xl:w-[168px]"
           />
         ))}
       </div>
