@@ -1,4 +1,12 @@
-# ByteSpace
+<h1 align="center">ByteSpace</h1>
+
+<p align="center">
+	<a href="https://byte-space-ecru-three.vercel.app/">Live Website</a>
+	&nbsp;·&nbsp;
+	<a href="https://github.com/mehedi-hridoy/ByteSpace">GitHub Repository</a>
+	&nbsp;·&nbsp;
+	<a href="https://www.figma.com/design/26TBgRjmpuxudcErJsHUfy/ByteSpace-New-Check-website?node-id=0-1&amp;p=f&amp;t=ShF1N9ut7zUpjJyK-0">Figma Design</a>
+</p>
 
 ByteSpace is a course discovery and creator-learning frontend. It is built with Next.js App Router, React, and Tailwind CSS v4. The current repository is a UI prototype backed by local demo data; authentication, enrollment, course search/filtering, and creator follow actions are not connected to a backend.
 
